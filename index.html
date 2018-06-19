@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <header>Cabecalho</header>
-    <div>conteudo</div>
-    <footer>Footer</footer>
-</body>
+<html lang="pt-br">
+	<head>
+
+		<!-- Título da página -->
+		<title>Estrutura de um site HTML</title>
+
+		<!-- Tags Meta -->
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="wordpress, desenvolvimento web, seo, blogosfera">
+		<meta name="description" content="Este é um exemplo de estrutura de um site HTML.">
+		<meta name="author" content="Rodrigo Zan">
+		<meta name="robots" content="index,follow">
+
+		<!-- Links -->
+		
+		<!-- link para o feed -->
+		<link rel="alternate" type="application/rss+xml" title="Feed de notícias" href="/feed">
+		
+		<!-- inclue a página style.css na página html -->
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+	</head>
+	<body>
+		<header>
+			
+			Este é o topo do site
+			<nav>
+				Aqui vai o menu do site
+			</nav>
+
+		</header>
+
+		<section>
+		
+			O site é dividido em seções
+
+			<header>
+				Este é o topo da seção
+			</header>
+
+			<article>
+				Aqui é onde escrevemos os artigos
+			</article>
+
+			<footer>
+				E aqui fica o rodapé da seção
+			</footer>
+
+		</section>
+		
+		<aside>
+			Aqui temos a barra lateral onde vão os widgets
+		</aside>
+
+		<footer>
+			Este é o rodapé do site
+		</footer>
+		
+		<!-- inclue a página script.js na página html -->
+		<script src="/assets/js/scripts.js"></script>
+	</body>
 </html>
